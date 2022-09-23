@@ -1,0 +1,320 @@
+.swiper {
+    width: 100%;
+    height: 664px;
+  }
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swp1_slids{
+    position: relative !important;
+}
+
+.swp1_slids::after{
+    position: absolute;
+    content: " ";
+    background: rgb(0, 0, 0);
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;  
+}
+
+
+.swp_slid_card{
+    background-color: #E2D1B1;
+    position: absolute;
+    top: 20%;
+    left: 200px;
+    padding: 50px 100px 50px 40px !important;
+    z-index: 200;
+}
+
+.swp_slid_card h1{
+     font-size: 60px;
+     
+}
+
+.swp_slid_card p{
+    font-size: 18px;
+    margin-top: 40px;
+    
+}
+
+.swiperSlider_btn_container{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+}
+.slid_1_next{
+    border: 2px solid white;
+    width: 70px !important;
+    height: 70px !important;
+    left: 100px !important;
+    border-radius: 50px;
+}
+
+.slid_1_prev{
+    border: 2px solid white;
+    width: 70px !important;
+    height: 70px !important;
+    left: 0px !important;
+    border-radius: 50px;
+}
+
+.slid_1_prev::after {
+    content: "\01F862" !important;
+    transform: rotate(180deg);
+    color: white;
+    font-size: 25px !important;
+   
+}
+.slid_1_next::after{
+    content: "\01F862" !important;
+    color: white;
+    font-size: 25px !important;
+}
+
+.slid_1_prev:hover , .slid_1_next:hover{
+    background-color: #3fa385;
+    border: 2px solid #3fa385;
+}
+
+
+
+
+/* swiper2 */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.slid2_image{
+    border-radius: 50%;
+    width: 130px !important;
+    height: 130px !important;
+
+}
+.swp_slid_2{
+    border-top: 4px solid #e2d1b100;
+    width: 280px !important ;
+    margin-left: 20px ;
+    padding-top: 20px;
+    background-color: white !important;
+}
+.swp_slid_2:hover{
+    
+    border-top: 4px solid #ffcf71;
+    
+}
+.swp_slid_2 h2{padding-top: 20px;}
+.swp_slid_2 h2:hover{
+   color: #3fa385; 
+   
+}
+
+.socialicon_slider2{
+    padding-bottom: 30px;
+}
+.socialicon_slider2 .fa-brands{
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F7F9;
+    border-radius: 50%;
+}
+
+.socialicon_slider2 .fa-brands:hover{
+    color: #fff;
+    background-color: #061c2d;
+    border-radius: 50%;
+}
+
+.swp_slid_2_iner_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiperSlider_2_btn_container{
+     position: relative;
+     right: 14%;
+     top: -2px;
+    
+}
+.slid_2_next{
+    border: 2px solid #3fa385;
+    width: 70px !important;
+    height: 70px !important;
+    left: 90px !important;
+    border-radius: 50px;
+}
+
+.slid_2_prev{
+    border: 2px solid #3fa385;
+    width: 70px !important;
+    height: 70px !important;
+    left: 0px !important;
+    border-radius: 50px;
+}
+
+.slid_2_prev::after {
+    content: "\01F862" !important;
+    transform: rotate(180deg);
+    color: #3fa385;
+    font-size: 20px !important;
+   
+}
+.slid_2_next::after{
+    content: "\01F862" !important;
+    color: #3fa385;
+    font-size: 20px !important;
+}
+
+.slid_2_prev:hover , .slid_2_next:hover{
+    background-color: #3fa385;
+    border: 2px solid #3fa385;
+    color: white;
+}
+.slid_2_prev:hover::after , .slid_2_next:hover::after{
+    color: white;
+}
+
+
+/* swiper3 */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0);
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.swp_slid_3{
+    width: 500px;
+}
+
+.swp_slid_3_iner_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+
+.slid_3_next{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3fa385;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50px;
+    right: 0px;
+    top: 40%;
+}
+
+.slid_3_prev{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid #3fa385;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50px;
+    left: 0px;
+    top: 40%;
+}
+
+.slid_3_prev::after {
+    content: "\01F862" !important;
+    transform: rotate(180deg);
+    color: #3fa385;
+    font-size: 20px !important;
+   
+}
+.slid_3_next::after{
+    content: "\01F862" !important;
+    color: #3fa385;
+    font-size: 20px !important;
+}
+
+.slid_2_prev:hover , .slid_2_next:hover{
+    background-color: #3fa385;
+    border: 2px solid #3fa385;
+    color: white;
+}
+.slid_2_prev:hover::after , .slid_2_next:hover::after{
+    color: white;
+}
